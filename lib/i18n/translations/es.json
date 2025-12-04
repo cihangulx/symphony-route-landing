@@ -1,0 +1,448 @@
+{
+  "header": {
+    "features": "Características",
+    "pricing": "Precios",
+    "providers": "Proveedores SMS",
+    "login": "Iniciar Sesión",
+    "tryItFree": "Pruébalo Gratis"
+  },
+  "hero": {
+    "badge": "Orquestación Inteligente de SMS",
+    "headline": "Enrutamiento SMS Multi-Proveedor",
+    "headlineHighlight": "Elige Automáticamente el Mejor Proveedor.",
+    "subtext": "SymphonyRoute garantiza que tus mensajes SMS siempre lleguen a los clientes utilizando enrutamiento inteligente, lógica de respaldo y optimización de proveedores en tiempo real.",
+    "tryItFree": "Pruébalo Gratis"
+  },
+  "features": {
+    "title": "Todo lo que necesitas para la entrega de SMS",
+    "description": "Construido para desarrolladores con integración fácil y entrega confiable de SMS. Envía SMS a cualquier escala.",
+    "multiProviderRouting": {
+      "title": "Enrutamiento Multi-Proveedor",
+      "description": "Enruta mensajes de forma inteligente entre múltiples proveedores de SMS basándote en costo, confiabilidad y cobertura geográfica."
+    },
+    "automaticFailover": {
+      "title": "Respaldo Automático",
+      "description": "Nunca pierdas un mensaje. Cambia automáticamente a proveedores de respaldo cuando las rutas principales fallen o se degraden."
+    },
+    "realTimeAnalytics": {
+      "title": "Análisis de Entrega en Tiempo Real",
+      "description": "Monitorea tasas de entrega, latencia y rendimiento de proveedores con paneles completos en tiempo real."
+    },
+    "developerFriendly": {
+      "title": "API Amigable para Desarrolladores",
+      "description": "API RESTful limpia con SDKs para todos los lenguajes principales. Comienza en minutos."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "description": "Comienza en tres pasos simples. No se requiere configuración compleja.",
+    "step1": {
+      "title": "Agregar Proveedores",
+      "description": "Conecta tus proveedores de SMS existentes como Twilio, Vonage o AWS SNS con solo unos clics."
+    },
+    "step2": {
+      "title": "Establecer Reglas de Enrutamiento",
+      "description": "Define la lógica de enrutamiento basada en costo, geografía, salud del proveedor o reglas de negocio personalizadas."
+    },
+    "step3": {
+      "title": "Listo para Enviar SMS",
+      "description": "Envía SMS individuales o masivos vía API o panel. La selección de proveedor y el respaldo se manejan automáticamente."
+    },
+    "codeExample": {
+      "filename": "send-message.ts",
+      "comment": "// Respuesta: { messageId: 'msg_xyz', provider: 'twilio' }"
+    }
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "description": "Comienza gratis y escala a medida que creces. Sin tarifas ocultas, sin sorpresas.",
+    "mostPopular": "Más Popular",
+    "basic": {
+      "name": "Básico",
+      "price": "$9",
+      "period": "/mes",
+      "description": "Perfecto para proyectos secundarios y aplicaciones pequeñas.",
+      "features": [
+        "Hasta 100,000 mensajes/mes",
+        "Un solo proyecto",
+        "Enrutamiento estándar",
+        "Respaldo automático",
+        "Análisis básicos",
+        "Soporte por correo electrónico"
+      ],
+      "cta": "Probar Básico"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$29",
+      "period": "/mes",
+      "description": "Para empresas en crecimiento que necesitan confiabilidad.",
+      "features": [
+        "Hasta 1,000,000 mensajes/mes",
+        "5 proyectos",
+        "Enrutamiento prioritario + respaldo",
+        "Análisis avanzados",
+        "Soporte prioritario",
+        "Reglas de enrutamiento personalizadas"
+      ],
+      "cta": "Iniciar Prueba Gratuita"
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "price": "Personalizado",
+      "period": "",
+      "description": "Para operaciones a gran escala con necesidades personalizadas.",
+      "features": [
+        "Mensajes ilimitados",
+        "Incorporación dedicada",
+        "Garantía SLA",
+        "Distribución avanzada de tráfico",
+        "Soporte telefónico 24/7",
+        "Integraciones personalizadas"
+      ],
+      "cta": "Contactar Ventas"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber sobre SymphonyRoute.",
+    "questions": {
+      "routing": {
+        "question": "¿Cómo funciona el enrutamiento multi-proveedor?",
+        "answer": "SymphonyRoute se conecta a tus proveedores de SMS existentes (como Twilio, Vonage, AWS SNS) y enruta inteligentemente cada mensaje al proveedor óptimo basándose en tus reglas—ya sea costo, velocidad de entrega, cobertura geográfica o puntuaciones de confiabilidad."
+      },
+      "failover": {
+        "question": "¿Qué sucede si un proveedor se cae?",
+        "answer": "Nuestro sistema de respaldo automático monitorea continuamente la salud de los proveedores. Si un proveedor experimenta problemas, redirigimos instantáneamente los mensajes a tus proveedores de respaldo—todo sin cambios de código o intervención manual requerida."
+      },
+      "existingProviders": {
+        "question": "¿Puedo usar mis cuentas de proveedores SMS existentes?",
+        "answer": "SymphonyRoute funciona con tus cuentas de proveedores existentes. Simplemente agrega tus credenciales de API, y comenzaremos a enrutar a través de ellas inmediatamente. Mantienes control total sobre tus relaciones con proveedores."
+      },
+      "integration": {
+        "question": "¿Cuánto tiempo toma la integración?",
+        "answer": "La mayoría de los desarrolladores están funcionando en 15 minutos. Nuestra API RESTful está diseñada para ser familiar e intuitiva, y proporcionamos SDKs para JavaScript, Python, Ruby, Go y PHP."
+      },
+      "freeTrial": {
+        "question": "¿Hay una prueba gratuita disponible?",
+        "answer": "¡Sí! Todos los planes incluyen una prueba gratuita de 14 días con acceso completo a todas las características. No se requiere tarjeta de crédito para comenzar. También puedes usar nuestro nivel gratuito para pruebas y desarrollo."
+      },
+      "analytics": {
+        "question": "¿Qué tipo de análisis proporcionan?",
+        "answer": "Nuestro panel de análisis proporciona información en tiempo real sobre tasas de entrega, rendimiento de proveedores, métricas de latencia, desgloses de costos y patrones de entrega geográfica. Los planes Pro y Empresarial incluyen informes avanzados y datos exportables."
+      }
+    }
+  },
+  "footer": {
+    "description": "Plataforma inteligente de enrutamiento SMS multi-proveedor. Asegura que tus mensajes siempre lleguen a los clientes con enrutamiento inteligente y respaldo automático.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "links": {
+      "features": "Características",
+      "pricing": "Precios",
+      "providers": "Proveedores SMS",
+      "about": "Acerca de",
+      "blog": "Blog",
+      "careers": "Carreras",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "copyright": "© {year} SymphonyRoute. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "providers": {
+    "title": "Proveedores SMS Soportados",
+    "description": "Usa estos proveedores de API con nuestro sistema. Conecta tus cuentas existentes y comienza a enrutar mensajes de forma inteligente entre más de 150 proveedores soportados.",
+    "countriesSupported": "{count} países soportados",
+    "viewAll": "Ver Todos",
+    "more": "Más",
+    "allProviders": "Todos los Proveedores Soportados",
+    "allProvidersDescription": "Usa estos proveedores de API con nuestro sistema. Soportamos más de 150 proveedores de SMS en todo el mundo. Conecta tus cuentas existentes y comienza a enrutar mensajes de forma inteligente.",
+    "backToHome": "Volver al Inicio",
+    "searchPlaceholder": "Buscar proveedores...",
+    "filterByStatus": "Filtrar por Estado",
+    "filterByRegion": "Filtrar por Región",
+    "allStatuses": "Todos los Estados",
+    "allRegions": "Todas las Regiones",
+    "supported": "Soportado",
+    "partiallySupported": "Parcialmente Soportado",
+    "notSupportedYet": "Aún No Soportado",
+    "resultsCount": "{count} resultados encontrados",
+    "noResults": "No se encontraron resultados",
+    "tabs": {
+      "all": "Todos",
+      "popular": "Popular",
+      "regions": "Regiones"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última Actualización: Diciembre 2024",
+    "backToHome": "Volver al Inicio",
+    "sections": [
+      {
+        "title": "1. Introducción y Alcance",
+        "content": [
+          "En SymphonyRoute (\"nosotros\", \"nuestro\", \"nuestra\", \"empresa\"), nos tomamos en serio tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos tu información personal cuando usas la plataforma y servicios de SymphonyRoute.",
+          "Esta política se aplica a nuestro sitio web, APIs, panel y todos los servicios de SymphonyRoute. Al usar nuestros servicios, aceptas los términos de esta política. Si no estás de acuerdo con estos términos, por favor no uses nuestros servicios.",
+          "Esta política está diseñada para cumplir con las leyes de protección de datos aplicables, incluyendo el Reglamento General de Protección de Datos (GDPR) de la Unión Europea y otras regulaciones de privacidad relevantes."
+        ]
+      },
+      {
+        "title": "2. Datos Personales que Recopilamos",
+        "content": [
+          "Para proporcionar y mejorar nuestros servicios, recopilamos datos personales en las siguientes categorías:",
+          "Información de Identidad y Contacto: Nombre, dirección de correo electrónico, número de teléfono, cargo, nombre de la empresa e información de dirección. Esta información se usa para creación de cuenta, soporte al cliente y fines de comunicación.",
+          "Información de Cuenta: Nombre de usuario, contraseña (encriptada), configuraciones de cuenta, preferencias y claves API. Esta información es necesaria para que uses nuestros servicios.",
+          "Datos de Uso: Tu uso de la plataforma, llamadas API, mensajes SMS enviados, tasas de éxito/fallo, métricas de rendimiento de proveedores y otros datos analíticos. Estos datos se usan para mejorar nuestros servicios y brindarte una mejor experiencia.",
+          "Datos Técnicos: Dirección IP, tipo y versión del navegador, sistema operativo, información del dispositivo, URLs de referencia, duraciones de visualización de página y otra información técnica recopilada automáticamente. Estos datos se usan para seguridad, depuración y optimización del servicio.",
+          "Información de Pago: Dirección de facturación, información del método de pago (últimos cuatro dígitos de tarjeta de crédito, información del procesador de pagos). La información completa de tarjeta de crédito es procesada directamente por nuestros procesadores de pago y no se almacena en nuestros sistemas.",
+          "Datos de Comunicación: Información que proporcionas al contactarnos (correos electrónicos, solicitudes de soporte, comentarios)."
+        ]
+      },
+      {
+        "title": "3. Métodos de Recopilación de Datos",
+        "content": [
+          "Recopilamos tus datos personales a través de los siguientes métodos:",
+          "Directamente de Ti: Recopilamos información directamente de ti cuando creas una cuenta, actualizas tu perfil, creas solicitudes de soporte o nos contactas.",
+          "Recopilación Automática: Cuando usas nuestros servicios, recopilamos automáticamente información técnica de tu dispositivo y navegador. Esto se hace a través de cookies, archivos de registro, web beacons y tecnologías similares.",
+          "Fuentes de Terceros: En algunos casos, podemos recibir información de socios comerciales, plataformas de redes sociales o fuentes públicas (por ejemplo, para información de la empresa).",
+          "Integraciones: Cuando te integras con proveedores de SMS, procesamos datos recibidos de esos proveedores. Estos datos se usan únicamente para proporcionar nuestros servicios."
+        ]
+      },
+      {
+        "title": "4. Propósitos del Uso de Datos",
+        "content": [
+          "Usamos los datos personales que recopilamos para los siguientes propósitos:",
+          "Prestación de Servicios: Gestionar tu cuenta, proporcionar servicios de entrega de SMS, otorgar acceso API, operar el panel y proporcionar soporte técnico.",
+          "Gestión de Transacciones: Procesar pagos, generar facturas, gestionar suscripciones y mantener registros contables.",
+          "Mejora del Servicio: Analizar el rendimiento de la plataforma, mejorar la experiencia del usuario, desarrollar nuevas características y mejorar la calidad del servicio.",
+          "Seguridad: Prevenir fraudes, detectar violaciones de seguridad, asegurar la seguridad de la cuenta y mantener el cumplimiento legal.",
+          "Comunicación: Enviar actualizaciones de servicio, notificaciones importantes, soporte técnico y comunicaciones de marketing (si has dado tu consentimiento).",
+          "Cumplimiento Legal: Cumplir con nuestras obligaciones legales, cumplir con órdenes judiciales, cumplir con requisitos regulatorios y proteger nuestros derechos legales.",
+          "Análisis e Informes: Analizar datos para generar estadísticas de uso, preparar informes de inteligencia empresarial y tomar decisiones estratégicas."
+        ]
+      },
+      {
+        "title": "5. Compartir Datos y Terceros",
+        "content": [
+          "No compartimos tus datos personales con terceros excepto en las siguientes circunstancias:",
+          "Proveedores de Servicios: Compartimos datos limitados con proveedores de servicios de terceros necesarios para proporcionar nuestros servicios. Estos incluyen proveedores de infraestructura en la nube (AWS, Google Cloud), procesadores de pagos (Stripe, PayPal), servicios de correo electrónico, herramientas de análisis y proveedores de SMS. Estos proveedores solo acceden a datos necesarios para proporcionar nuestros servicios y no pueden usar tus datos para sus propios fines.",
+          "Socios Comerciales: Podemos compartir datos limitados con socios comerciales de confianza para mejorar nuestros servicios u ofrecer nuevas características. Estos intercambios están protegidos por contratos y se usan solo para fines especificados.",
+          "Obligaciones Legales: Podemos estar obligados a compartir tus datos personales en caso de obligaciones legales, órdenes judiciales, solicitudes gubernamentales o solicitudes de autoridades regulatorias. En tales casos, te notificaremos en la medida legalmente posible.",
+          "Transferencias Comerciales: En caso de fusión, adquisición, reestructuración o venta de activos, tus datos personales pueden transferirse al nuevo propietario o sucesor legal. Se te notificará de tales cambios.",
+          "Consentimiento Explícito: Con tu consentimiento explícito, podemos compartir datos con terceros que especifiques.",
+          "Nunca vendemos tus datos personales a terceros para fines publicitarios o de marketing."
+        ]
+      },
+      {
+        "title": "6. Seguridad de Datos",
+        "content": [
+          "Implementamos medidas de seguridad técnicas y organizacionales estándar de la industria para proteger tus datos:",
+          "Encriptación: Todos los datos sensibles (contraseñas, claves API, información de pago) se encriptan usando algoritmos de encriptación estándar de la industria (AES-256, TLS 1.3). Los datos se encriptan tanto en reposo (durante el almacenamiento) como en tránsito (durante la transmisión).",
+          "Control de Acceso: El acceso a los datos se otorga solo al personal autorizado, basado en requisitos comerciales, siguiendo el principio de menor privilegio. Todo el acceso se registra y se revisa regularmente.",
+          "Infraestructura de Seguridad: Protegemos nuestra infraestructura con firewalls, sistemas de detección de intrusiones, protección DDoS y auditorías de seguridad regulares.",
+          "Copias de Seguridad Regulares: Tus datos se respaldan regularmente, y tenemos planes de recuperación ante desastres en su lugar.",
+          "Capacitación del Personal: Todos nuestros empleados son capacitados regularmente en seguridad de datos y asuntos de privacidad.",
+          "Notificación de Violación de Seguridad: Si se detecta alguna violación de seguridad, te notificaremos inmediatamente a ti y a las autoridades regulatorias relevantes de acuerdo con los requisitos legales.",
+          "Sin embargo, ningún sistema basado en internet es 100% seguro. Hacemos nuestro mejor esfuerzo para proteger tus datos, pero no podemos garantizar seguridad absoluta."
+        ]
+      },
+      {
+        "title": "7. Cookies y Tecnologías de Seguimiento",
+        "content": [
+          "Usamos cookies y tecnologías de seguimiento similares en nuestro sitio web y servicios:",
+          "Cookies Esenciales: Requeridas para la funcionalidad básica de nuestros servicios. Por ejemplo, se usan para gestión de sesiones, seguridad y almacenamiento de preferencias. No puedes usar nuestros servicios sin estas cookies.",
+          "Cookies de Rendimiento: Se usan para analizar el rendimiento de la plataforma, depurar y mejorar la experiencia del usuario. Estas cookies recopilan datos anónimos.",
+          "Cookies de Funcionalidad: Se usan para recordar preferencias de idioma, configuraciones de tema y otras preferencias del usuario.",
+          "Cookies Analíticas: Se usan para analizar estadísticas de uso, visualizaciones de página, comportamientos del usuario e interacciones de la plataforma. Estos datos se procesan en forma agregada y anónima.",
+          "Gestión de Cookies: Puedes gestionar las cookies a través de la configuración de tu navegador. Sin embargo, si desactivas las cookies esenciales, algunas características de nuestros servicios pueden no funcionar. La mayoría de los navegadores aceptan cookies automáticamente, pero tienes la opción de rechazar cookies a través de la configuración de tu navegador."
+        ]
+      },
+      {
+        "title": "8. Períodos de Retención de Datos",
+        "content": [
+          "Retenemos tus datos personales durante el tiempo necesario para nuestros propósitos de recopilación:",
+          "Datos de Cuenta: Se retienen mientras tu cuenta esté activa y hasta la eliminación de la cuenta. Después de la eliminación de la cuenta, tus datos se eliminan dentro de 30 días, excepto por obligaciones de retención legal (por ejemplo, 10 años para registros contables).",
+          "Datos de Uso: Los datos de uso para fines de análisis y mejora generalmente se retienen durante 2 años, pero pueden retenerse más tiempo en formato anonimizado.",
+          "Datos de Comunicación: Las solicitudes de soporte y registros de comunicación se retienen durante 3 años.",
+          "Información de Pago: Se retiene durante 10 años debido a requisitos contables legales.",
+          "Archivos de Registro: Los archivos de registro para fines de seguridad y depuración generalmente se retienen durante 90 días.",
+          "Cuando eliminas tu cuenta o expira el período de retención, tus datos personales se eliminan de forma segura o se anonimizan."
+        ]
+      },
+      {
+        "title": "9. Derechos del Sujeto de Datos (GDPR)",
+        "content": [
+          "Tienes los siguientes derechos con respecto a tus datos personales:",
+          "Derecho a la Información: Tienes derecho a saber qué datos personales se están procesando, los propósitos del procesamiento, con quién se comparten los datos y los períodos de retención.",
+          "Derecho de Acceso: Puedes solicitar una copia de tus datos personales procesados. Esta solicitud generalmente se cumple dentro de 30 días.",
+          "Derecho de Rectificación: Puedes solicitar la corrección de datos personales incorrectos o incompletos.",
+          "Derecho al Olvido (Derecho a ser Olvidado): Bajo ciertas condiciones (por ejemplo, si los datos ya no son necesarios, si retiras tu consentimiento), puedes solicitar la eliminación de tus datos personales. Sin embargo, algunos datos pueden no eliminarse debido a nuestras obligaciones de retención legal.",
+          "Derecho a Restringir el Procesamiento: Si estás disputando la precisión de tus datos u objetando el procesamiento, puedes restringir temporalmente el procesamiento de tus datos.",
+          "Derecho a la Portabilidad de Datos: Puedes recibir ciertos datos en un formato estructurado, de uso común y legible por máquina.",
+          "Derecho de Oposición: Puedes oponerte a nuestras actividades de procesamiento basadas en intereses legítimos. Evaluaremos tu objeción y detendremos el procesamiento si tienes motivos válidos.",
+          "Toma de Decisiones Automatizada: Tienes derecho a no estar sujeto a procesos de toma de decisiones automatizados (incluyendo perfilado).",
+          "Para ejercer estos derechos, puedes enviar un correo electrónico a privacy@symphonyroute.com. Respondemos a tu solicitud dentro de 30 días. Podemos solicitar alguna información para verificar tu identidad."
+        ]
+      },
+      {
+        "title": "10. Privacidad de Menores",
+        "content": [
+          "Nuestros servicios están destinados a usuarios de 18 años o más. No recopilamos conscientemente información personal de menores de 18 años. Si descubrimos que hemos recopilado información personal de un menor, eliminaremos inmediatamente esa información. Si eres padre o tutor y crees que tu hijo nos ha proporcionado información personal, por favor contáctanos."
+        ]
+      },
+      {
+        "title": "11. Transferencias Internacionales de Datos",
+        "content": [
+          "Como nuestros servicios se proporcionan globalmente, tus datos personales pueden transferirse a servidores fuera de tu país. Tus datos pueden almacenarse en servidores ubicados en la Unión Europea y los Estados Unidos de América, en particular.",
+          "En las transferencias internacionales de datos, se toman medidas de seguridad apropiadas, y tus datos se procesan solo de acuerdo con los términos de esta política. Si los datos se transfieren desde la Unión Europea, se usan cláusulas contractuales estándar del GDPR u otros mecanismos legales.",
+          "Puedes contactarnos para saber en qué países se procesan tus datos."
+        ]
+      },
+      {
+        "title": "12. Cambios en la Política",
+        "content": [
+          "Podemos actualizar esta Política de Privacidad de vez en cuando. Cuando hagamos cambios significativos, te notificaremos por correo electrónico o a través de la plataforma. También puedes rastrear los cambios verificando la fecha de \"Última Actualización\" en la parte superior de esta página.",
+          "Tu uso continuo de nuestros servicios después de que los cambios entren en vigor significa que aceptas la política actualizada. Si no aceptas los cambios, puedes cerrar tu cuenta y dejar de usar nuestros servicios.",
+          "Para cambios significativos (por ejemplo, cambios significativos en los propósitos de uso de datos, nuevo intercambio de datos), te notificaremos con anticipación tanto como sea posible y obtendremos nuevo consentimiento si es necesario."
+        ]
+      },
+      {
+        "title": "13. Enlaces de Terceros",
+        "content": [
+          "Nuestro sitio web y servicios pueden contener enlaces a sitios web de terceros. Estos enlaces se proporcionan solo para conveniencia, y no somos responsables de las prácticas de privacidad de estos sitios web. Cuando visites un sitio web de terceros, recomendamos leer la política de privacidad de ese sitio."
+        ]
+      },
+      {
+        "title": "14. Contacto y Quejas",
+        "content": [
+          "Si tienes preguntas, solicitudes o inquietudes sobre nuestra política de privacidad, actividades de procesamiento de datos o tus derechos, por favor contáctanos:",
+          "Correo electrónico: privacy@symphonyroute.com",
+          "También puedes presentar una queja ante la autoridad de protección de datos relevante si crees que tus derechos de protección de datos han sido violados. En la Unión Europea, esta es la autoridad de protección de datos del estado miembro relevante."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última Actualización: 2024",
+    "backToHome": "Volver al Inicio",
+    "sections": [
+      {
+        "title": "1. Uso de Servicios",
+        "content": [
+          "Al usar los servicios de SymphonyRoute, aceptas los términos de este acuerdo de servicio.",
+          "Solo puedes usar nuestros servicios para fines legales y de acuerdo con este acuerdo."
+        ]
+      },
+      {
+        "title": "2. Responsabilidad de la Cuenta",
+        "content": [
+          "Eres responsable de la seguridad de tu cuenta y la confidencialidad de la información de tu cuenta.",
+          "Eres responsable de todas las actividades realizadas a través de tu cuenta. Tu cuenta puede suspenderse si se detecta actividad sospechosa."
+        ]
+      },
+      {
+        "title": "3. Restricciones de Uso",
+        "content": [
+          "No puedes usar nuestros servicios para spam, distribución de malware o actividades ilegales.",
+          "No puedes usar nuestros servicios de una manera que viole los derechos de otros. Esto incluye derechos de autor, marca registrada o derechos de privacidad."
+        ]
+      },
+      {
+        "title": "4. Pago y Facturación",
+        "content": [
+          "Nuestros servicios operan con precios basados en uso. Se te cobrará según tu uso.",
+          "Los pagos deben realizarse por adelantado. Tus servicios pueden suspenderse si no se realiza el pago."
+        ]
+      },
+      {
+        "title": "5. Interrupciones del Servicio",
+        "content": [
+          "Puede haber interrupciones temporales en nuestros servicios debido a mantenimiento, actualizaciones o problemas técnicos.",
+          "Intentaremos proporcionar aviso previo siempre que sea posible, pero puede que no podamos hacerlo en situaciones de emergencia."
+        ]
+      },
+      {
+        "title": "6. Propiedad Intelectual",
+        "content": [
+          "Los servicios y contenido de SymphonyRoute están protegidos por derechos de autor y otras leyes de propiedad intelectual.",
+          "No puedes copiar, distribuir o usar nuestros servicios, marcas registradas o contenido sin permiso."
+        ]
+      },
+      {
+        "title": "7. Descargo de Responsabilidad",
+        "content": [
+          "Nuestros servicios se proporcionan 'tal cual'. No ofrecemos garantías expresas o implícitas.",
+          "No somos responsables de ningún daño directo o indirecto que surja del uso de nuestros servicios."
+        ]
+      },
+      {
+        "title": "8. Cancelación y Terminación",
+        "content": [
+          "Puedes cancelar tu cuenta en cualquier momento. La cancelación entra en vigor inmediatamente.",
+          "Nos reservamos el derecho de terminar tu cuenta si violas este acuerdo."
+        ]
+      },
+      {
+        "title": "9. Cambios",
+        "content": [
+          "Podemos actualizar este acuerdo de vez en cuando. Te notificaremos de cambios significativos.",
+          "Recomendamos verificar esta página regularmente para estar informado de las actualizaciones."
+        ]
+      },
+      {
+        "title": "10. Contacto",
+        "content": [
+          "Si tienes preguntas sobre los términos de servicio, por favor contáctanos.",
+          "Correo electrónico: legal@symphonyroute.com"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Ponte en contacto con nosotros para preguntas, sugerencias o solicitudes de soporte. Te responderemos lo antes posible.",
+    "backToHome": "Volver al Inicio",
+    "name": "Nombre Completo",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "ejemplo@email.com",
+    "subject": "Asunto",
+    "subjectPlaceholder": "Asunto de tu mensaje",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "successMessage": "¡Tu mensaje ha sido enviado exitosamente! Te responderemos lo antes posible.",
+    "errorMessage": "Ocurrió un error. Por favor intenta de nuevo o envía un correo electrónico directamente.",
+    "emailInfo": "Para enviar un correo electrónico directamente: contact@symphonyroute.com"
+  },
+  "dashboard": {
+    "messagesSent": "Mensajes Enviados",
+    "deliveryRate": "Tasa de Entrega",
+    "activeProviders": "Proveedores Activos",
+    "avgLatency": "Latencia Promedio",
+    "messageVolume": "Volumen de Mensajes",
+    "providerStatus": "Estado del Proveedor",
+    "routingRules": "Reglas de Enrutamiento",
+    "active": "Activo",
+    "enabled": "Habilitado",
+    "costOptimization": "Optimización de Costos",
+    "geoRouting": "Enrutamiento Geográfico",
+    "failover": "Respaldo"
+  },
+  "cookieConsent": {
+    "title": "Preferencias de Cookies",
+    "description": "Utilizamos cookies esenciales para garantizar que nuestro sitio web funcione correctamente. Puede aceptar todas las cookies para habilitar análisis.",
+    "essentialOnly": "Aceptar Solo las Esenciales",
+    "acceptAll": "Aceptar Todas",
+    "privacyText": "Más información en nuestra",
+    "privacyLink": "Política de Privacidad"
+  }
+}
+

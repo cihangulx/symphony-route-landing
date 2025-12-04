@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "logo": "/twilio-logo-red.jpg",
+    "regions": ["200+ ülke"],
+    "description": "Global leader in cloud communications with extensive coverage worldwide.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "vonage",
+    "name": "Vonage",
+    "logo": "/vonage-logo-purple.jpg",
+    "regions": ["200+ ülke"],
+    "description": "Enterprise-grade communications platform with reliable global reach.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "aws-sns",
+    "name": "AWS SNS",
+    "logo": "/aws-sns-logo-orange.jpg",
+    "regions": ["200+ ülke"],
+    "description": "Amazon's scalable messaging service with worldwide infrastructure.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "messagebird",
+    "name": "MessageBird",
+    "logo": "/messagebird-logo-blue-bird.jpg",
+    "regions": ["Europa", "200+ ülke"],
+    "description": "Omnichannel communications platform with strong European presence.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "sinch",
+    "name": "Sinch",
+    "logo": "/sinch-logo-orange-circle.jpg",
+    "regions": ["200+ ülke"],
+    "description": "Cloud communications platform trusted by global enterprises.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "plivo",
+    "name": "Plivo",
+    "logo": "/plivo-logo-green.jpg",
+    "regions": ["200+ ülke"],
+    "description": "Developer-friendly communications API with global coverage.",
+    "supportStatus": "Supported"
+  },
+  {
+    "id": "infobip",
+    "name": "Infobip",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform serving 200+ countries.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telnyx",
+    "name": "Telnyx",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global communications platform with extensive coverage.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "route-mobile",
+    "name": "Route Mobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telesign",
+    "name": "Telesign",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Digital identity and communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "kaleyra",
+    "name": "Kaleyra",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mitto",
+    "name": "Mitto",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bandwidth",
+    "name": "Bandwidth",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global communications platform and API provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "cm-com",
+    "name": "CM.com",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "zenvia",
+    "name": "Zenvia",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Latin America's leading cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "beepsend",
+    "name": "Beepsend",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS gateway and messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clx-communications",
+    "name": "CLX Communications",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "global-sms-hub",
+    "name": "Global SMS Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS aggregation and routing platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "gms-worldwide",
+    "name": "GMS Worldwide",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging services provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "monty-mobile",
+    "name": "Monty Mobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global mobile messaging and communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "soprano",
+    "name": "Soprano",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global enterprise messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "link-mobility",
+    "name": "Link Mobility",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clickatell",
+    "name": "Clickatell",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bics-sms",
+    "name": "Bics SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsglobal",
+    "name": "SMSGlobal",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tyntec",
+    "name": "Tyntec",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa", "200+ ülke"],
+    "description": "Global cloud communications platform with strong European presence.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "commify",
+    "name": "Commify",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European business messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "esendex",
+    "name": "Esendex",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "UK-based business messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsapi",
+    "name": "SMSAPI",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European SMS API platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsfactor",
+    "name": "SMSFactor",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "French SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "spryng",
+    "name": "Spryng",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "skebby",
+    "name": "Skebby",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Italian SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "messente",
+    "name": "Messente",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Estonian SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sendinblue",
+    "name": "SendinBlue (Brevo)",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European marketing and messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "textmagic",
+    "name": "TextMagic",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "serwersms",
+    "name": "SerwerSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Polish SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "o2-business",
+    "name": "O2 Business (UK)",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "UK-based business SMS services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "three-wholesale",
+    "name": "Three Wholesale",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "UK-based wholesale messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ee-business",
+    "name": "EE Business",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "UK-based business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "brownie-telecom",
+    "name": "Brownie Telecom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging services provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "myelefant",
+    "name": "MyElefant",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "French messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clicksend-eu",
+    "name": "ClickSend EU",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "voxbone-sms",
+    "name": "Voxbone SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "jt-global-messaging",
+    "name": "JT Global Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "cellsynt",
+    "name": "Cellsynt",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "silverstreet",
+    "name": "Silverstreet",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "nexah",
+    "name": "Nexah",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "French messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "fastsms",
+    "name": "Fastsms",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "coolsms-eu",
+    "name": "CoolSMS EU",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "46elks",
+    "name": "46elks",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Swedish messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "neos-data",
+    "name": "Neos Data",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bytehand",
+    "name": "Bytehand",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "orange-business-sms",
+    "name": "Orange Business SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Orange's business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "vodafone-global-enterprise",
+    "name": "Vodafone Global Enterprise",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Vodafone's enterprise messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telefonica-business-messaging",
+    "name": "Telefónica Business Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Telefónica's business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telenor-cpaas",
+    "name": "Telenor CPaaS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Telenor's communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "t-mobile-business-messaging",
+    "name": "T-Mobile Business Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "T-Mobile's business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "swisscom-a2p",
+    "name": "Swisscom A2P",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Swisscom's A2P messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tim-business-messaging",
+    "name": "TIM Business Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "TIM's business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "deutsche-telekom-sms-hub",
+    "name": "Deutsche Telekom SMS Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Deutsche Telekom's SMS services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bulksms-eu",
+    "name": "BulkSMS EU",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European bulk SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sendpulse-eu-routing",
+    "name": "SendPulse EU Routing",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging routing platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "comilio",
+    "name": "Comilio",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "European messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsmode",
+    "name": "smsmode",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "French messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tele2-messaging",
+    "name": "Tele2 Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Europa"],
+    "description": "Tele2's messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "netgsm",
+    "name": "Netgsm",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'nin önde gelen SMS sağlayıcılarından biri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "verimor",
+    "name": "Verimor",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de güvenilir SMS hizmeti sağlayan provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "vatansms",
+    "name": "VatanSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye odaklı SMS çözümleri sunan sağlayıcı.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mutlucell",
+    "name": "Mutlucell",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de kurumsal SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "iletimerkezi",
+    "name": "Ileti Merkezi",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'nin önde gelen iletişim çözümleri sağlayıcısı.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "turbosms-tr",
+    "name": "TurboSMS TR",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de hızlı ve güvenilir SMS gönderimi.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mavisms",
+    "name": "MaviSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de SMS ve iletişim çözümleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ataksms",
+    "name": "AtakSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye odaklı SMS sağlayıcısı.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "nidasms",
+    "name": "NidaSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de kurumsal SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bulutsms",
+    "name": "BulutSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de bulut tabanlı SMS çözümleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smspanel",
+    "name": "SMSPanel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de SMS panel ve API hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "okyanussms",
+    "name": "OkyanusSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de geniş kapsamlı SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bizimsms",
+    "name": "BizimSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de yerel SMS sağlayıcısı.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ideams",
+    "name": "İdeaSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de yenilikçi SMS çözümleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "veryans",
+    "name": "VeryANS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de kurumsal iletişim çözümleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "turatel",
+    "name": "Turatel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de telekomünikasyon ve SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "turk-telekom-kurumsal",
+    "name": "Türk Telekom Kurumsal SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türk Telekom'un kurumsal SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "turkcell-kurumsal",
+    "name": "Turkcell Kurumsal SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Turkcell'in kurumsal SMS çözümleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "vodafone-kurumsal",
+    "name": "Vodafone Kurumsal SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Vodafone'un kurumsal SMS hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clickatell-tr",
+    "name": "Clickatell TR routing",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye için Clickatell routing hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsapi-tr",
+    "name": "SMSAPI TR",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de SMS API hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smspazar",
+    "name": "SMSPazar",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Türkiye"],
+    "description": "Türkiye'de SMS pazarı ve hizmetleri.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "karix",
+    "name": "Karix",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya", "Orta Doğu"],
+    "description": "Asia and Middle East messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "msg91",
+    "name": "MSG91",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based SMS messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "textlocal",
+    "name": "TextLocal",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based bulk SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "unifonic",
+    "name": "Unifonic",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu", "Afrika"],
+    "description": "Middle East and Africa messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "etisalat-messaging",
+    "name": "Etisalat Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Etisalat's messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "du-telecom-a2p",
+    "name": "Du Telecom A2P",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Du Telecom's A2P messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mobily-sms",
+    "name": "Mobily SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Saudi Arabia-based SMS services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ooredoo",
+    "name": "Ooredoo",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu", "Asya"],
+    "description": "Middle East and Asia telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "airtel-sms-hub",
+    "name": "Airtel SMS Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya", "Afrika"],
+    "description": "Airtel's SMS messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mtn",
+    "name": "MTN",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika", "Orta Doğu"],
+    "description": "Africa and Middle East telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "vodacom",
+    "name": "Vodacom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Africa-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "safaricom",
+    "name": "Safaricom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Kenya-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "globelabs",
+    "name": "GlobeLabs",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Philippines-based messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smart-messaging-ph",
+    "name": "Smart Messaging (PH)",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Philippines-based messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "nexmo-apac",
+    "name": "Nexmo APAC routes",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Asia Pacific messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "infobip-apac",
+    "name": "Infobip APAC",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Infobip's Asia Pacific services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "2factor",
+    "name": "2Factor",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based SMS and OTP platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "routesms-india",
+    "name": "Routesms India",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based SMS routing platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "valuefirst",
+    "name": "ValueFirst",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based enterprise messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "gupshup",
+    "name": "GupShup",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based messaging and chatbot platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "msgwow",
+    "name": "MSGWOW",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clickatell-africa",
+    "name": "Clickatell Africa",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Africa-focused messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "africas-talking",
+    "name": "Africa'sTalking",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Africa-focused communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bulksms-africa",
+    "name": "BulkSMS Africa",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Africa-based bulk SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsala",
+    "name": "SMSala",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Asia-based SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "solutionsinfini",
+    "name": "SolutionsInfini",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based enterprise messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "exotel",
+    "name": "Exotel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based cloud telephony and messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "textguru",
+    "name": "TextGuru",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "India-based SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "jio-business-messaging",
+    "name": "Jio Business Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Jio's business messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "hutch-sri-lanka",
+    "name": "Hutch Sri Lanka",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Sri Lanka-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "dialog-sri-lanka",
+    "name": "Dialog Sri Lanka",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Sri Lanka-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "china-mobile-a2p",
+    "name": "China Mobile A2P",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "China Mobile's A2P messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "china-unicom",
+    "name": "China Unicom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "China Unicom's messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "china-telecom",
+    "name": "China Telecom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "China Telecom's messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tigo-sms",
+    "name": "Tigo SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika", "Orta Doğu"],
+    "description": "Africa and Middle East telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "orange-mea-routes",
+    "name": "Orange MEA routes",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu", "Afrika"],
+    "description": "Orange's Middle East and Africa messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mtn-uganda",
+    "name": "MTN Uganda",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "MTN Uganda's messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smile-communications",
+    "name": "Smile Communications",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "Africa-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "cellc",
+    "name": "CellC",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Afrika"],
+    "description": "South Africa-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "warid-sms",
+    "name": "Warid SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Pakistan-based SMS services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bakcell",
+    "name": "Bakcell",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Azerbaijan-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "azercell",
+    "name": "Azercell",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Azerbaijan-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "a1-telekom-austria-apac",
+    "name": "A1 Telekom Austria APAC routes",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "A1 Telekom's Asia Pacific messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "zong",
+    "name": "Zong",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Pakistan-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ufone",
+    "name": "Ufone",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Pakistan-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "banglalink",
+    "name": "Banglalink",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Bangladesh-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "robi-axiata",
+    "name": "Robi Axiata",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Bangladesh-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "dhiraagu",
+    "name": "Dhiraagu",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Asya"],
+    "description": "Maldives-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "stc-kuwait",
+    "name": "STC Kuwait",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Kuwait-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "zain-sms",
+    "name": "Zain SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Orta Doğu"],
+    "description": "Middle East telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bandwidth-us",
+    "name": "Bandwidth (ABD)",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based global communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "zipwhip",
+    "name": "Zipwhip",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based business messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telnyx-us-routing",
+    "name": "Telnyx US routing",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "Telnyx's US messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "twilio-latin-america",
+    "name": "Twilio Latin America routes",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Twilio's Latin America messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "plivo-us",
+    "name": "Plivo US",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "Plivo's US messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "openmarket",
+    "name": "OpenMarket",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based enterprise messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telesign-us",
+    "name": "Telesign US",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "Telesign's US messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sinch-us-route",
+    "name": "Sinch US route",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "Sinch's US messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "iqglobal",
+    "name": "IqGlobal",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "movistar-latam",
+    "name": "Movistar (LATAM)",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Movistar's Latin America messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "claro",
+    "name": "Claro",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "vivo",
+    "name": "Vivo",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Brazil-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "avantel",
+    "name": "Avantel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Colombia-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tigo-colombia",
+    "name": "Tigo Colombia",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Colombia-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsmasivo",
+    "name": "SMSMasivo",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America bulk SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "labsmobile",
+    "name": "LabsMobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsgatewaycenter",
+    "name": "SMSGatewayCenter",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America SMS gateway platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telcel-mexico",
+    "name": "Telcel Mexico",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "Mexico-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "entel",
+    "name": "Entel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Chile-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "cnt",
+    "name": "CNT",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Ecuador-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "txtnation",
+    "name": "TxtNation",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "textus",
+    "name": "TextUs",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based business messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "simpletexting",
+    "name": "SimpleTexting",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based SMS marketing platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "scupio",
+    "name": "Scupio",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Brazil-based messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsone",
+    "name": "SMSOne",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clicksms-latam",
+    "name": "ClickSMS LATAM",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "voximplant-messaging",
+    "name": "Voximplant Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bulkgate",
+    "name": "BulkGate",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based bulk SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "red-oxygen",
+    "name": "Red Oxygen",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based messaging platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsglobal-us",
+    "name": "SMSGlobal US",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "SMSGlobal's US messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telecall",
+    "name": "Telecall",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Brazil-based telecommunications provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "goldsms",
+    "name": "GoldSMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Latin America SMS platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "infobip-latam",
+    "name": "INFOBIP LATAM",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Infobip's Latin America messaging services.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "kaleyra-brazil-route",
+    "name": "Kaleyra Brazil route",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Güney Amerika"],
+    "description": "Kaleyra's Brazil messaging routes.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "avoxi-messaging",
+    "name": "Avoxi Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["Kuzey Amerika"],
+    "description": "US-based cloud communications platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "route-mobile-hub",
+    "name": "Route Mobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS aggregator and hub provider.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mitto-hub",
+    "name": "Mitto",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging aggregator and hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "monty-mobile-hub",
+    "name": "Monty Mobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global mobile messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "gms-hub",
+    "name": "GMS Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging services hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bics-sms-hub",
+    "name": "BICS SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS hub and aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tata-communications",
+    "name": "TATA Communications",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global telecommunications and messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "syniverse",
+    "name": "Syniverse",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and connectivity hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "lanck-telecom",
+    "name": "Lanck Telecom",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global telecommunications hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "airtel-hub",
+    "name": "Airtel Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Airtel's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clx-hub",
+    "name": "CLX Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "CLX Communications global hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "soprano-hub",
+    "name": "Soprano Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Soprano's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "silverstreet-hub",
+    "name": "Silverstreet Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Silverstreet's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "hsl-mobile",
+    "name": "HSL Mobile",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global mobile messaging aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "spikko",
+    "name": "Spikko",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging aggregator platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "interkabel",
+    "name": "Interkabel",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global telecommunications hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sap-digital-interconnect",
+    "name": "SAP Digital Interconnect",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "SAP's global messaging and connectivity hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "voxbone-messaging",
+    "name": "Voxbone Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "didww-sms",
+    "name": "DIDWW SMS",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS and messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telcom-wholesale",
+    "name": "Telcom Wholesale",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global wholesale messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "xconnect",
+    "name": "XConnect",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global telecommunications interconnect hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "didlogic-messaging",
+    "name": "DIDlogic Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telesign-global-hub",
+    "name": "TeleSign Global Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Telesign's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tismi",
+    "name": "Tismi",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging aggregator platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "routee",
+    "name": "Routee",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging and communications hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "kaleyra-hub",
+    "name": "Kaleyra Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Kaleyra's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "infobip-global-hub",
+    "name": "Infobip Global Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Infobip's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "messagebird-flow-routes",
+    "name": "MessageBird Flow Routes",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "MessageBird's global flow routing hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ibasis",
+    "name": "iBasis",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global telecommunications and messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tata-carrier-services",
+    "name": "Tata Carrier Services",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Tata's global carrier services hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "tigo-international-messaging",
+    "name": "Tigo International Messaging",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Tigo's international messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sms-highway",
+    "name": "SMS Highway",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS routing and aggregator platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsala-global-hub",
+    "name": "SMSALA Global Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "SMSALA's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "prosms-gateway",
+    "name": "ProSMS Gateway",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS gateway and aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "fortytwo",
+    "name": "Fortytwo",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging aggregator platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "nexah-hub",
+    "name": "Nexah Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Nexah's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "clickatell-hub",
+    "name": "Clickatell Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Clickatell's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "sendpulse-hub",
+    "name": "SendPulse Hub",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "SendPulse's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "bulkgate-international",
+    "name": "BulkGate International",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "BulkGate's international messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "globalmessageservices",
+    "name": "GlobalMessageServices",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global messaging services aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smstrade",
+    "name": "Smstrade",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS trading and aggregator platform.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "ozekigateway",
+    "name": "OzekiGateway",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global SMS gateway and aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "karix-global",
+    "name": "Karix Global",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Karix's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "mobivate",
+    "name": "Mobivate",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Global mobile messaging aggregator.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "telesign-a2p",
+    "name": "TeleSign A2P",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "Telesign's global A2P messaging hub.",
+    "supportStatus": "Not Supported yet"
+  },
+  {
+    "id": "smsone-global",
+    "name": "SMSOne Global",
+    "logo": "/placeholder-logo.png",
+    "regions": ["200+ ülke"],
+    "description": "SMSOne's global messaging hub.",
+    "supportStatus": "Not Supported yet"
+  }
+]

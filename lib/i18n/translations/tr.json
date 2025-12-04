@@ -1,0 +1,448 @@
+{
+  "header": {
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "providers": "SMS Sağlayıcıları",
+    "login": "Giriş Yap",
+    "tryItFree": "Ücretsiz Dene"
+  },
+  "hero": {
+    "badge": "Akıllı SMS Orkestrasyonu",
+    "headline": "Çoklu Sağlayıcı SMS Yönlendirme",
+    "headlineHighlight": "Otomatik Olarak En İyi Sağlayıcıyı Seçin.",
+    "subtext": "SymphonyRoute, akıllı yönlendirme, yedekleme mantığı ve gerçek zamanlı sağlayıcı optimizasyonu kullanarak SMS mesajlarınızın müşterilere her zaman ulaşmasını sağlar.",
+    "tryItFree": "Ücretsiz Dene"
+  },
+  "features": {
+    "title": "SMS teslimatı için ihtiyacınız olan her şey",
+    "description": "Geliştiriciler için tasarlanmış, kolay entegrasyon ve güvenilir SMS teslimatı. Her ölçekte SMS gönderin.",
+    "multiProviderRouting": {
+      "title": "Çoklu Sağlayıcı Yönlendirme",
+      "description": "Maliyet, güvenilirlik ve coğrafi kapsama alanına göre mesajları birden fazla SMS sağlayıcısı arasında akıllıca yönlendirin."
+    },
+    "automaticFailover": {
+      "title": "Otomatik Yedekleme",
+      "description": "Asla mesaj kaçırmayın. Birincil rotalar başarısız olduğunda veya bozulduğunda otomatik olarak yedek sağlayıcılara geçin."
+    },
+    "realTimeAnalytics": {
+      "title": "Gerçek Zamanlı Teslimat Analitiği",
+      "description": "Kapsamlı gerçek zamanlı panellerle teslimat oranlarını, gecikmeyi ve sağlayıcı performansını izleyin."
+    },
+    "developerFriendly": {
+      "title": "Geliştirici Dostu API",
+      "description": "Tüm büyük diller için SDK'larla temiz, RESTful API. Dakikalar içinde başlayın."
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır",
+    "description": "Üç basit adımda başlayın. Karmaşık kurulum gerekmez.",
+    "step1": {
+      "title": "Sağlayıcı Ekle",
+      "description": "Mevcut SMS sağlayıcılarınızı (Twilio, Vonage veya AWS SNS gibi) sadece birkaç tıklamayla bağlayın."
+    },
+    "step2": {
+      "title": "Yönlendirme Kuralları Belirle",
+      "description": "Maliyet, coğrafya, sağlayıcı sağlığı veya özel iş kurallarına göre yönlendirme mantığını tanımlayın."
+    },
+    "step3": {
+      "title": "SMS Göndermeye Hazırsın",
+      "description": "API veya dashboard üzerinden tekli veya çoklu SMS gönderebilirsin. Sağlayıcı seçimi ve yedekleme otomatik olarak yönetilir."
+    },
+    "codeExample": {
+      "filename": "send-message.ts",
+      "comment": "// Yanıt: { messageId: 'msg_xyz', provider: 'twilio' }"
+    }
+  },
+  "pricing": {
+    "title": "Basit, şeffaf fiyatlandırma",
+    "description": "Ücretsiz başlayın ve büyüdükçe ölçeklendirin. Gizli ücret yok, sürpriz yok.",
+    "mostPopular": "En Popüler",
+    "basic": {
+      "name": "Temel",
+      "price": "$9",
+      "period": "/ay",
+      "description": "Yan projeler ve küçük uygulamalar için mükemmel.",
+      "features": [
+        "Ayda 100.000 mesaja kadar",
+        "Tek proje",
+        "Standart yönlendirme",
+        "Otomatik yedekleme",
+        "Temel analitik",
+        "E-posta desteği"
+      ],
+      "cta": "Temel'i Dene"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$29",
+      "period": "/ay",
+      "description": "Güvenilirliğe ihtiyaç duyan büyüyen işletmeler için.",
+      "features": [
+        "Ayda 1.000.000 mesaja kadar",
+        "5 proje",
+        "Öncelikli yönlendirme + yedekleme",
+        "Gelişmiş analitik",
+        "Öncelikli destek",
+        "Özel yönlendirme kuralları"
+      ],
+      "cta": "Ücretsiz Deneme Başlat"
+    },
+    "enterprise": {
+      "name": "Kurumsal",
+      "price": "Özel",
+      "period": "",
+      "description": "Özel ihtiyaçları olan büyük ölçekli operasyonlar için.",
+      "features": [
+        "Sınırsız mesaj",
+        "Özel onboarding",
+        "SLA garantisi",
+        "Gelişmiş trafik dağıtımı",
+        "7/24 telefon desteği",
+        "Özel entegrasyonlar"
+      ],
+      "cta": "Satış Ekibiyle İletişime Geç"
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "description": "SymphonyRoute hakkında bilmeniz gereken her şey.",
+    "questions": {
+      "routing": {
+        "question": "Çoklu sağlayıcı yönlendirme nasıl çalışır?",
+        "answer": "SymphonyRoute, mevcut SMS sağlayıcılarınıza (Twilio, Vonage, AWS SNS gibi) bağlanır ve kurallarınıza göre—maliyet, teslimat hızı, coğrafi kapsama veya güvenilirlik skorları olsun—her mesajı optimal sağlayıcıya akıllıca yönlendirir."
+      },
+      "failover": {
+        "question": "Bir sağlayıcı çökerse ne olur?",
+        "answer": "Otomatik yedekleme sistemimiz sağlayıcı sağlığını sürekli izler. Bir sağlayıcı sorun yaşarsa, mesajları anında yedek sağlayıcılarınıza yeniden yönlendiririz—tüm bunlar kod değişikliği veya manuel müdahale gerektirmeden."
+      },
+      "existingProviders": {
+        "question": "Mevcut SMS sağlayıcı hesaplarımı kullanabilir miyim?",
+        "answer": "SymphonyRoute mevcut sağlayıcı hesaplarınızla çalışır. Sadece API kimlik bilgilerinizi ekleyin, hemen yönlendirmeye başlayalım. Sağlayıcı ilişkileriniz üzerinde tam kontrolü elinizde tutarsınız."
+      },
+      "integration": {
+        "question": "Entegrasyon ne kadar sürer?",
+        "answer": "Çoğu geliştirici 15 dakika içinde çalışır hale gelir. RESTful API'miz tanıdık ve sezgisel olacak şekilde tasarlanmıştır ve JavaScript, Python, Ruby, Go ve PHP için SDK'lar sağlıyoruz."
+      },
+      "freeTrial": {
+        "question": "Ücretsiz deneme mevcut mu?",
+        "answer": "Evet! Tüm planlar tüm özelliklere tam erişimle 14 günlük ücretsiz deneme içerir. Başlamak için kredi kartı gerekmez. Ayrıca test ve geliştirme için ücretsiz katmanımızı da kullanabilirsiniz."
+      },
+      "analytics": {
+        "question": "Ne tür analitik sağlıyorsunuz?",
+        "answer": "Analitik panelimiz teslimat oranları, sağlayıcı performansı, gecikme metrikleri, maliyet dökümleri ve coğrafi teslimat kalıpları hakkında gerçek zamanlı içgörüler sağlar. Pro ve Kurumsal planlar gelişmiş raporlama ve dışa aktarılabilir veri içerir."
+      }
+    }
+  },
+  "footer": {
+    "description": "Akıllı çoklu sağlayıcı SMS yönlendirme platformu. Mesajlarınızın akıllı yönlendirme ve otomatik yedekleme ile müşterilere her zaman ulaşmasını sağlayın.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "links": {
+      "features": "Özellikler",
+      "pricing": "Fiyatlandırma",
+      "providers": "SMS Sağlayıcıları",
+      "about": "Hakkında",
+      "blog": "Blog",
+      "careers": "Kariyer",
+      "contact": "İletişim",
+      "privacy": "Gizlilik",
+      "terms": "Şartlar"
+    },
+    "copyright": "© {year} SymphonyRoute. Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları"
+  },
+  "providers": {
+    "title": "Desteklenen SMS Sağlayıcıları",
+    "description": "Bu API sağlayıcılarını bizim sistemimizle birlikte kullanabilirsiniz. Mevcut hesaplarınızı bağlayın ve 150+ desteklenen sağlayıcı arasında mesajları akıllıca yönlendirmeye başlayın.",
+    "countriesSupported": "{count} ülke desteklenir",
+    "viewAll": "Tümünü Gör",
+    "more": "Daha",
+    "allProviders": "Desteklenen Tüm Sağlayıcılar",
+    "allProvidersDescription": "Bu API sağlayıcılarını bizim sistemimizle birlikte kullanabilirsiniz. Dünya çapında 150+ SMS sağlayıcısını destekliyoruz. Mevcut hesaplarınızı bağlayın ve mesajları akıllıca yönlendirmeye başlayın.",
+    "backToHome": "Ana Sayfaya Dön",
+    "searchPlaceholder": "Sağlayıcı ara...",
+    "filterByStatus": "Duruma Göre Filtrele",
+    "filterByRegion": "Bölgeye Göre Filtrele",
+    "allStatuses": "Tüm Durumlar",
+    "allRegions": "Tüm Bölgeler",
+    "supported": "Destekleniyor",
+    "partiallySupported": "Kısmen Destekleniyor",
+    "notSupportedYet": "Henüz Desteklenmiyor",
+    "resultsCount": "{count} sonuç bulundu",
+    "noResults": "Sonuç bulunamadı",
+    "tabs": {
+      "all": "Tümü",
+      "popular": "Popüler",
+      "regions": "Bölgeler"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: Aralık 2024",
+    "backToHome": "Ana Sayfaya Dön",
+    "sections": [
+      {
+        "title": "1. Giriş ve Kapsam",
+        "content": [
+          "SymphonyRoute (\"biz\", \"bizim\", \"şirket\") olarak, kullanıcılarımızın gizliliğini korumaya büyük önem veriyoruz. Bu Gizlilik Politikası, SymphonyRoute platformunu ve hizmetlerini kullandığınızda kişisel bilgilerinizin nasıl toplandığını, kullanıldığını, saklandığını ve korunduğunu açıklamaktadır.",
+          "Bu politika, web sitemiz, API'lerimiz, dashboard'umuz ve tüm SymphonyRoute hizmetlerini kapsar. Hizmetlerimizi kullanarak, bu politikanın şartlarını kabul etmiş olursunuz. Eğer bu şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın.",
+          "Bu politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) dahil olmak üzere geçerli veri koruma yasalarına uygun olarak hazırlanmıştır."
+        ]
+      },
+      {
+        "title": "2. Toplanan Kişisel Veriler",
+        "content": [
+          "Hizmetlerimizi sağlamak ve geliştirmek için aşağıdaki kategorilerde kişisel veriler topluyoruz:",
+          "Kimlik ve İletişim Bilgileri: Ad, soyad, e-posta adresi, telefon numarası, iş unvanı, şirket adı ve adres bilgileri. Bu bilgiler hesap oluşturma, müşteri desteği ve iletişim amaçlı kullanılır.",
+          "Hesap Bilgileri: Kullanıcı adı, şifre (şifrelenmiş), hesap ayarları, tercihler ve API anahtarları. Bu bilgiler hizmetlerimizi kullanmanız için gereklidir.",
+          "Kullanım Verileri: Platform kullanımınız, API çağrıları, gönderilen SMS mesajları, başarı/başarısızlık oranları, sağlayıcı performans metrikleri ve diğer analitik veriler. Bu veriler hizmetlerimizi iyileştirmek ve size daha iyi deneyim sunmak için kullanılır.",
+          "Teknik Veriler: IP adresi, tarayıcı türü ve versiyonu, işletim sistemi, cihaz bilgileri, referans URL'ler, sayfa görüntüleme süreleri ve diğer otomatik olarak toplanan teknik bilgiler. Bu veriler güvenlik, hata ayıklama ve hizmet optimizasyonu için kullanılır.",
+          "Ödeme Bilgileri: Faturalama adresi, ödeme yöntemi bilgileri (kredi kartı son dört hanesi, ödeme sağlayıcı bilgileri). Tam kredi kartı bilgileri doğrudan ödeme işlemcilerimiz tarafından işlenir ve bizim sistemlerimizde saklanmaz.",
+          "İletişim Verileri: Bizimle iletişime geçtiğinizde (e-posta, destek talepleri, geri bildirimler) sağladığınız bilgiler."
+        ]
+      },
+      {
+        "title": "3. Veri Toplama Yöntemleri",
+        "content": [
+          "Kişisel verilerinizi aşağıdaki yöntemlerle topluyoruz:",
+          "Doğrudan Sizden: Hesap oluştururken, profil bilgilerinizi güncellerken, destek talebi oluştururken veya bizimle iletişime geçtiğinizde doğrudan sizden bilgi topluyoruz.",
+          "Otomatik Toplama: Hizmetlerimizi kullandığınızda, cihazınızdan ve tarayıcınızdan otomatik olarak teknik bilgiler topluyoruz. Bu, çerezler, log dosyaları, web beacon'lar ve benzeri teknolojiler aracılığıyla yapılır.",
+          "Üçüncü Taraf Kaynakları: Bazı durumlarda, iş ortaklarımızdan, sosyal medya platformlarından veya halka açık kaynaklardan bilgi alabiliriz (örneğin, şirket bilgileri için).",
+          "Entegrasyonlar: SMS sağlayıcılarınızla entegrasyon yaptığınızda, bu sağlayıcılardan gelen verileri işliyoruz. Bu veriler yalnızca hizmetlerimizi sağlamak için kullanılır."
+        ]
+      },
+      {
+        "title": "4. Veri Kullanım Amaçları",
+        "content": [
+          "Topladığımız kişisel verileri aşağıdaki amaçlarla kullanıyoruz:",
+          "Hizmet Sağlama: Hesabınızı yönetmek, SMS gönderim hizmetlerini sağlamak, API erişimi vermek, dashboard'u çalıştırmak ve teknik desteği sunmak.",
+          "İşlem Yönetimi: Ödemeleri işlemek, faturaları oluşturmak, abonelikleri yönetmek ve muhasebe kayıtlarını tutmak.",
+          "Hizmet İyileştirme: Platform performansını analiz etmek, kullanıcı deneyimini geliştirmek, yeni özellikler geliştirmek ve hizmet kalitesini artırmak.",
+          "Güvenlik: Dolandırıcılığı önlemek, güvenlik ihlallerini tespit etmek, hesap güvenliğini sağlamak ve yasal uyumluluğu korumak.",
+          "İletişim: Hizmet güncellemeleri, önemli bildirimler, teknik destek ve pazarlama iletişimleri (izin verdiğiniz takdirde) göndermek.",
+          "Yasal Uyumluluk: Yasal yükümlülüklerimizi yerine getirmek, mahkeme kararlarına uymak, düzenleyici gereksinimleri karşılamak ve hukuki haklarımızı korumak.",
+          "Analitik ve Raporlama: Kullanım istatistikleri oluşturmak, iş zekası raporları hazırlamak ve stratejik kararlar almak için verileri analiz etmek."
+        ]
+      },
+      {
+        "title": "5. Veri Paylaşımı ve Üçüncü Taraflar",
+        "content": [
+          "Kişisel verilerinizi aşağıdaki durumlar dışında üçüncü taraflarla paylaşmıyoruz:",
+          "Hizmet Sağlayıcılar: Hizmetlerimizi sağlamak için ihtiyaç duyduğumuz üçüncü taraf hizmet sağlayıcılarıyla sınırlı veri paylaşımı yapıyoruz. Bunlar arasında bulut altyapı sağlayıcıları (AWS, Google Cloud), ödeme işlemcileri (Stripe, PayPal), e-posta servisleri, analitik araçları ve SMS sağlayıcıları yer alır. Bu sağlayıcılar yalnızca hizmetlerimizi sağlamak için gerekli olan verilere erişir ve verilerinizi kendi amaçları için kullanamazlar.",
+          "İş Ortakları: Güvenilir iş ortaklarımızla, hizmetlerimizi geliştirmek veya yeni özellikler sunmak için sınırlı veri paylaşımı yapabiliriz. Bu paylaşımlar sözleşmelerle korunur ve yalnızca belirtilen amaçlar için kullanılır.",
+          "Yasal Zorunluluklar: Yasal bir yükümlülük, mahkeme kararı, devlet talebi veya düzenleyici kurum talebi durumunda, kişisel verilerinizi paylaşmak zorunda kalabiliriz. Bu durumlarda, yasal olarak mümkün olduğunca sizi bilgilendirmeye çalışırız.",
+          "İş Transferleri: Şirket birleşmesi, devralma, yeniden yapılandırma veya varlık satışı durumunda, kişisel verileriniz yeni sahibe veya yasal halefine aktarılabilir. Bu durumda, değişiklikten haberdar edilirsiniz.",
+          "Açık Rıza: Açık rızanızla, belirttiğiniz üçüncü taraflarla veri paylaşımı yapabiliriz.",
+          "Hiçbir durumda kişisel verilerinizi reklam veya pazarlama amaçlı üçüncü taraflara satmıyoruz."
+        ]
+      },
+      {
+        "title": "6. Veri Güvenliği",
+        "content": [
+          "Verilerinizin güvenliğini sağlamak için endüstri standardı teknik ve organizasyonel güvenlik önlemleri uyguluyoruz:",
+          "Şifreleme: Tüm hassas veriler (şifreler, API anahtarları, ödeme bilgileri) endüstri standardı şifreleme algoritmaları (AES-256, TLS 1.3) kullanılarak şifrelenir. Veriler hem depolama sırasında (at rest) hem de aktarım sırasında (in transit) şifrelenir.",
+          "Erişim Kontrolü: Verilere erişim, yalnızca yetkili personel tarafından, iş gereksinimleri doğrultusunda ve en az ayrıcalık prensibi ile sağlanır. Tüm erişimler loglanır ve düzenli olarak gözden geçirilir.",
+          "Güvenlik Altyapısı: Güvenlik duvarları, saldırı tespit sistemleri, DDoS koruması ve düzenli güvenlik denetimleri ile altyapımızı koruyoruz.",
+          "Düzenli Yedekleme: Verileriniz düzenli olarak yedeklenir ve felaket kurtarma planlarımız mevcuttur.",
+          "Personel Eğitimi: Tüm çalışanlarımız veri güvenliği ve gizlilik konularında düzenli olarak eğitilir.",
+          "Güvenlik İhlali Bildirimi: Herhangi bir güvenlik ihlali tespit edilirse, yasal gereklilikler doğrultusunda sizi ve ilgili düzenleyici kurumları derhal bilgilendiririz.",
+          "Ancak, hiçbir internet tabanlı sistem %100 güvenli değildir. Verilerinizi korumak için elimizden geleni yapıyoruz, ancak mutlak güvenlik garantisi veremeyiz."
+        ]
+      },
+      {
+        "title": "7. Çerezler ve İzleme Teknolojileri",
+        "content": [
+          "Web sitemizde ve hizmetlerimizde çerezler ve benzeri izleme teknolojileri kullanıyoruz:",
+          "Zorunlu Çerezler: Hizmetlerimizin temel işlevselliği için gereklidir. Örneğin, oturum yönetimi, güvenlik ve tercih saklama için kullanılır. Bu çerezler olmadan hizmetlerimizi kullanamazsınız.",
+          "Performans Çerezleri: Platform performansını analiz etmek, hata ayıklamak ve kullanıcı deneyimini iyileştirmek için kullanılır. Bu çerezler anonim veriler toplar.",
+          "İşlevsellik Çerezleri: Dil tercihleri, tema ayarları ve diğer kullanıcı tercihlerini hatırlamak için kullanılır.",
+          "Analitik Çerezleri: Kullanım istatistikleri, sayfa görüntülemeleri, kullanıcı davranışları ve platform etkileşimlerini analiz etmek için kullanılır. Bu veriler toplu ve anonim olarak işlenir.",
+          "Çerez Yönetimi: Tarayıcı ayarlarınızdan çerezleri yönetebilirsiniz. Ancak, zorunlu çerezleri devre dışı bırakırsanız, hizmetlerimizin bazı özellikleri çalışmayabilir. Çoğu tarayıcı, çerezleri otomatik olarak kabul eder, ancak tarayıcı ayarlarınızdan çerezleri reddetme seçeneğiniz vardır."
+        ]
+      },
+      {
+        "title": "8. Veri Saklama Süreleri",
+        "content": [
+          "Kişisel verilerinizi, toplama amaçlarımız için gerekli olduğu sürece saklıyoruz:",
+          "Hesap Verileri: Hesabınız aktif olduğu sürece ve hesap silinene kadar saklanır. Hesap silindikten sonra, yasal saklama yükümlülüklerimiz (örneğin, muhasebe kayıtları için 10 yıl) hariç, verileriniz 30 gün içinde silinir.",
+          "Kullanım Verileri: Analitik ve iyileştirme amaçlı kullanım verileri genellikle 2 yıl saklanır, ancak anonimleştirilmiş formatta daha uzun süre saklanabilir.",
+          "İletişim Verileri: Destek talepleri ve iletişim kayıtları 3 yıl saklanır.",
+          "Ödeme Bilgileri: Yasal muhasebe gereksinimleri nedeniyle 10 yıl saklanır.",
+          "Log Dosyaları: Güvenlik ve hata ayıklama amaçlı log dosyaları genellikle 90 gün saklanır.",
+          "Hesabınızı sildiğinizde veya veri saklama süresi dolduğunda, kişisel verileriniz güvenli bir şekilde silinir veya anonimleştirilir."
+        ]
+      },
+      {
+        "title": "9. Veri Sahibinin Hakları (KVKK ve GDPR)",
+        "content": [
+          "Kişisel verileriniz üzerinde aşağıdaki haklara sahipsiniz:",
+          "Bilgi Alma Hakkı: Hangi kişisel verilerinizin işlendiğini, işleme amaçlarını, verilerin kimlerle paylaşıldığını ve saklama sürelerini öğrenme hakkına sahipsiniz.",
+          "Erişim Hakkı: İşlenen kişisel verilerinizin bir kopyasını talep edebilirsiniz. Bu talep genellikle 30 gün içinde yerine getirilir.",
+          "Düzeltme Hakkı: Yanlış veya eksik kişisel verilerinizin düzeltilmesini talep edebilirsiniz.",
+          "Silme Hakkı (Unutulma Hakkı): Belirli koşullar altında (örneğin, veriler artık gerekli değilse, rızanızı geri çektiyseniz), kişisel verilerinizin silinmesini talep edebilirsiniz. Ancak, yasal saklama yükümlülüklerimiz nedeniyle bazı veriler silinemeyebilir.",
+          "İşlemeyi Kısıtlama Hakkı: Verilerinizin doğruluğunu tartışıyorsanız veya işlemeye itiraz ediyorsanız, verilerinizin işlenmesini geçici olarak kısıtlayabilirsiniz.",
+          "Veri Taşınabilirliği Hakkı: Belirli verilerinizi yapılandırılmış, yaygın kullanılan ve makine tarafından okunabilir bir formatta alabilirsiniz.",
+          "İtiraz Hakkı: Meşru menfaatlerimize dayalı işleme faaliyetlerimize itiraz edebilirsiniz. İtirazınızı değerlendirir ve haklı gerekçeleriniz varsa işlemeyi durdururuz.",
+          "Otomatik Karar Verme: Otomatik karar verme (profil oluşturma dahil) süreçlerine tabi tutulmama hakkına sahipsiniz.",
+          "Bu haklarınızı kullanmak için privacy@symphonyroute.com adresine e-posta gönderebilirsiniz. Talebinizi en geç 30 gün içinde yanıtlarız. Kimliğinizi doğrulamak için bazı bilgiler isteyebiliriz."
+        ]
+      },
+      {
+        "title": "10. Çocukların Gizliliği",
+        "content": [
+          "Hizmetlerimiz 18 yaş ve üzeri kullanıcılar içindir. Bilerek 18 yaşın altındaki çocuklardan kişisel bilgi toplamıyoruz. Eğer bir çocuğun kişisel bilgilerini topladığımızı fark edersek, derhal bu bilgileri sileriz. Eğer bir ebeveyn veya vası iseniz ve çocuğunuzun bize kişisel bilgi verdiğini düşünüyorsanız, lütfen bizimle iletişime geçin."
+        ]
+      },
+      {
+        "title": "11. Uluslararası Veri Transferleri",
+        "content": [
+          "Hizmetlerimiz küresel olarak sunulduğu için, kişisel verileriniz Türkiye dışındaki sunuculara aktarılabilir. Verileriniz özellikle Avrupa Birliği ve Amerika Birleşik Devletleri'ndeki sunucularda saklanabilir.",
+          "Uluslararası veri transferlerinde, uygun güvenlik önlemleri alınır ve verileriniz yalnızca bu politikanın şartlarına uygun olarak işlenir. Avrupa Birliği'nden veri transferi yapılıyorsa, GDPR'nin standart sözleşme maddeleri veya diğer yasal mekanizmalar kullanılır.",
+          "Verilerinizin hangi ülkelerde işlendiğini öğrenmek için bizimle iletişime geçebilirsiniz."
+        ]
+      },
+      {
+        "title": "12. Politika Değişiklikleri",
+        "content": [
+          "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler yaptığımızda, size e-posta yoluyla veya platform üzerinden bildirim göndeririz. Ayrıca, bu sayfanın üst kısmındaki \"Son Güncelleme\" tarihini kontrol ederek değişiklikleri takip edebilirsiniz.",
+          "Değişikliklerin yürürlüğe girmesinden sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir. Eğer değişiklikleri kabul etmiyorsanız, hesabınızı kapatabilir ve hizmetlerimizi kullanmayı durdurabilirsiniz.",
+          "Önemli değişiklikler için (örneğin, veri kullanım amaçlarında önemli değişiklikler, yeni veri paylaşımı), mümkün olduğunca önceden bildirim yaparız ve gerekirse yeni rıza alırız."
+        ]
+      },
+      {
+        "title": "13. Üçüncü Taraf Bağlantılar",
+        "content": [
+          "Web sitemizde ve hizmetlerimizde üçüncü taraf web sitelerine bağlantılar bulunabilir. Bu bağlantılar yalnızca kolaylık sağlamak içindir ve bu web sitelerinin gizlilik uygulamalarından sorumlu değiliz. Üçüncü taraf bir web sitesini ziyaret ettiğinizde, o sitenin gizlilik politikasını okumanızı öneririz."
+        ]
+      },
+      {
+        "title": "14. İletişim ve Şikayetler",
+        "content": [
+          "Gizlilik politikamız, veri işleme faaliyetlerimiz veya haklarınız hakkında sorularınız, talepleriniz veya endişeleriniz varsa, lütfen bizimle iletişime geçin:",
+          "E-posta: privacy@symphonyroute.com",
+          "Ayrıca, veri koruma haklarınızın ihlal edildiğini düşünüyorsanız, ilgili veri koruma otoritesine şikayette bulunabilirsiniz. Türkiye'de bu Kişisel Verileri Koruma Kurumu (KVKK), Avrupa Birliği'nde ise ilgili üye devletin veri koruma otoritesidir."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Kullanım Sözleşmesi",
+    "lastUpdated": "Son Güncelleme: 2024",
+    "backToHome": "Ana Sayfaya Dön",
+    "sections": [
+      {
+        "title": "1. Hizmetlerin Kullanımı",
+        "content": [
+          "SymphonyRoute hizmetlerini kullanarak, bu kullanım sözleşmesinin şartlarını kabul etmiş olursunuz.",
+          "Hizmetlerimizi yalnızca yasal amaçlar için ve bu sözleşmeye uygun olarak kullanabilirsiniz."
+        ]
+      },
+      {
+        "title": "2. Hesap Sorumluluğu",
+        "content": [
+          "Hesabınızın güvenliğinden ve hesap bilgilerinizin gizliliğinden siz sorumlusunuz.",
+          "Hesabınız aracılığıyla yapılan tüm işlemlerden sorumlusunuz. Şüpheli aktivite tespit edilirse hesabınız askıya alınabilir."
+        ]
+      },
+      {
+        "title": "3. Kullanım Kısıtlamaları",
+        "content": [
+          "Hizmetlerimizi spam, kötü amaçlı yazılım dağıtımı veya yasadışı faaliyetler için kullanamazsınız.",
+          "Hizmetlerimizi başkalarının haklarını ihlal edecek şekilde kullanamazsınız. Bu, telif hakkı, ticari marka veya gizlilik haklarını içerir."
+        ]
+      },
+      {
+        "title": "4. Ödeme ve Faturalama",
+        "content": [
+          "Hizmetlerimiz kullanım bazlı fiyatlandırma ile çalışır. Kullanımınıza göre ücretlendirilirsiniz.",
+          "Ödemeler önceden yapılmalıdır. Ödeme yapılmazsa hizmetleriniz askıya alınabilir."
+        ]
+      },
+      {
+        "title": "5. Hizmet Kesintileri",
+        "content": [
+          "Bakım, güncelleme veya teknik sorunlar nedeniyle hizmetlerimizde geçici kesintiler olabilir.",
+          "Mümkün olduğunca önceden bildirim yapmaya çalışırız, ancak acil durumlarda bildirim yapılamayabilir."
+        ]
+      },
+      {
+        "title": "6. Fikri Mülkiyet",
+        "content": [
+          "SymphonyRoute hizmetleri ve içeriği telif hakkı ve diğer fikri mülkiyet yasalarıyla korunmaktadır.",
+          "Hizmetlerimizi, markalarımızı veya içeriğimizi izinsiz kopyalayamaz, dağıtamaz veya kullanamazsınız."
+        ]
+      },
+      {
+        "title": "7. Sorumluluk Reddi",
+        "content": [
+          "Hizmetlerimiz 'olduğu gibi' sağlanmaktadır. Açık veya zımni hiçbir garanti vermiyoruz.",
+          "Hizmetlerimizin kullanımından kaynaklanan doğrudan veya dolaylı zararlardan sorumlu değiliz."
+        ]
+      },
+      {
+        "title": "8. İptal ve Fesih",
+        "content": [
+          "Hesabınızı istediğiniz zaman iptal edebilirsiniz. İptal işlemi hemen geçerli olur.",
+          "Sözleşmeyi ihlal etmeniz durumunda hesabınızı feshetme hakkımız saklıdır."
+        ]
+      },
+      {
+        "title": "9. Değişiklikler",
+        "content": [
+          "Bu sözleşmeyi zaman zaman güncelleyebiliriz. Önemli değişiklikler için sizi bilgilendireceğiz.",
+          "Güncellemeleri takip etmek için bu sayfayı düzenli olarak kontrol etmenizi öneririz."
+        ]
+      },
+      {
+        "title": "10. İletişim",
+        "content": [
+          "Kullanım sözleşmesi hakkında sorularınız varsa, lütfen bizimle iletişime geçin.",
+          "E-posta: legal@symphonyroute.com"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Sorularınız, önerileriniz veya destek talepleriniz için bizimle iletişime geçin. Size en kısa sürede dönüş yapacağız.",
+    "backToHome": "Ana Sayfaya Dön",
+    "name": "Ad Soyad",
+    "namePlaceholder": "Adınız ve soyadınız",
+    "email": "E-posta",
+    "emailPlaceholder": "ornek@email.com",
+    "subject": "Konu",
+    "subjectPlaceholder": "Mesajınızın konusu",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınızı buraya yazın...",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "successMessage": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+    "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.",
+    "emailInfo": "Doğrudan e-posta göndermek için: contact@symphonyroute.com"
+  },
+  "dashboard": {
+    "messagesSent": "Gönderilen Mesajlar",
+    "deliveryRate": "Teslimat Oranı",
+    "activeProviders": "Aktif Sağlayıcılar",
+    "avgLatency": "Ort. Gecikme",
+    "messageVolume": "Mesaj Hacmi",
+    "providerStatus": "Sağlayıcı Durumu",
+    "routingRules": "Yönlendirme Kuralları",
+    "active": "Aktif",
+    "enabled": "Etkin",
+    "costOptimization": "Maliyet Optimizasyonu",
+    "geoRouting": "Coğrafi Yönlendirme",
+    "failover": "Yedekleme"
+  },
+  "cookieConsent": {
+    "title": "Çerez Tercihleri",
+    "description": "Web sitemizin düzgün çalışması için gerekli çerezleri kullanıyoruz. Analitikleri etkinleştirmek için tüm çerezleri kabul edebilirsiniz.",
+    "essentialOnly": "Sadece Gerekli Olanları Kabul Et",
+    "acceptAll": "Tümünü Kabul Et",
+    "privacyText": "Daha fazla bilgi için",
+    "privacyLink": "Gizlilik Politikamız"
+  }
+}
+
