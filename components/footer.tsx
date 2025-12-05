@@ -9,8 +9,8 @@ export default function Footer() {
   
   const footerLinks = {
     product: [
-      { name: t.footer.links.features, href: "#features" },
-      { name: t.footer.links.pricing, href: "#pricing" },
+      { name: t.footer.links.features, href: "/#features" },
+      { name: t.footer.links.pricing, href: "/#pricing" },
       { name: t.footer.links.providers, href: "/providers" },
     ],
     legal: [
