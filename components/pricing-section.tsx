@@ -3,9 +3,11 @@
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
+import { useRouter } from "next/navigation"
 
 export default function PricingSection() {
   const { t } = useLanguage()
+  const router = useRouter()
   
   // Dashboard URL from environment variable
   const dashboardUrl = process.env.NEXT_PUBLIC_DASHBOARD_URL || 'http://localhost:5001'
@@ -101,7 +103,8 @@ export default function PricingSection() {
                 }`}
                 onClick={() => {
                   if (plan.cta === t.pricing.enterprise.cta) {
-                    // Contact sales için farklı bir işlem yapılabilir
+                    // Contact sales için iletişim sayfasına yönlendir
+                    router.push('/contact')
                     return
                   }
                   window.open(`${dashboardUrl}/register`, '_blank')
