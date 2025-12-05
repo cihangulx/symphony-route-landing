@@ -26,19 +26,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0C58FE] to-[#0C58FE]/70 flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="w-5 h-5 text-white"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                  <path d="M2 17l10 5 10-5" />
-                  <path d="M2 12l10 5 10-5" />
-                </svg>
-              </div>
+              <img 
+                src="/sr_logo32x32.svg" 
+                alt="SymphonyRoute" 
+                className="w-8 h-8"
+              />
               <span className="text-lg font-semibold">SymphonyRoute</span>
             </Link>
             <p className="mt-4 text-white/60 text-sm leading-relaxed max-w-sm">
