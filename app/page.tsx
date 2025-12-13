@@ -1,6 +1,7 @@
 import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
 import FeaturesSection from "@/components/features-section"
+import OTPServiceSection from "@/components/otp-service-section"
 import ProvidersSection from "@/components/providers-section"
 import HowItWorksSection from "@/components/how-it-works-section"
 import PricingSection from "@/components/pricing-section"
@@ -121,6 +122,7 @@ export default function Home() {
         <Header />
         <HeroSection />
         <FeaturesSection />
+        <OTPServiceSection />
         <ProvidersSection />
         <HowItWorksSection />
         <PricingSection />

@@ -35,6 +35,59 @@ export interface Translations {
       description: string
     }
   }
+  otpService: {
+    badge: string
+    title: string
+    description: string
+    howItWorks: {
+      title: string
+      step1: {
+        title: string
+        description: string
+      }
+      step2: {
+        title: string
+        description: string
+      }
+      step3: {
+        title: string
+        description: string
+      }
+      step4: {
+        title: string
+        description: string
+      }
+      step5: {
+        title: string
+        description: string
+      }
+    }
+    apiIntegration: {
+      title: string
+      description: string
+      endpoint1: {
+        title: string
+        description: string
+      }
+      endpoint2: {
+        title: string
+        description: string
+      }
+    }
+    benefits: {
+      title: string
+      items: string[]
+    }
+    useCases: {
+      title: string
+      items: string[]
+    }
+    packageInfo: {
+      label: string
+      description: string
+    }
+    highlight: string
+  }
   howItWorks: {
     title: string
     description: string

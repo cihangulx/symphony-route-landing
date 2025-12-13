@@ -33,6 +33,71 @@
       "description": "API RESTful limpa com SDKs para todas as principais linguagens. Comece em minutos."
     }
   },
+  "otpService": {
+    "badge": "Nova Funcionalidade",
+    "title": "Serviço OTP Gerenciado (OTP-as-a-Service)",
+    "description": "SymphonyRoute oferece um serviço OTP totalmente gerenciado construído sobre sua infraestrutura de roteamento SMS. Com esta funcionalidade, você não precisa lidar com processos complexos como geração, armazenamento e verificação de OTP.",
+    "howItWorks": {
+      "title": "Como Funciona?",
+      "step1": {
+        "title": "Geração de OTP",
+        "description": "Códigos OTP são gerados com segurança pela SymphonyRoute"
+      },
+      "step2": {
+        "title": "Entrega SMS",
+        "description": "Mensagens OTP são enviadas através de seus provedores SMS configurados"
+      },
+      "step3": {
+        "title": "Failover Automático",
+        "description": "Failover e roteamento automáticos são aplicados durante a entrega"
+      },
+      "step4": {
+        "title": "Verificação",
+        "description": "A verificação OTP é tratada pela SymphonyRoute"
+      },
+      "step5": {
+        "title": "Armazenamento Seguro",
+        "description": "Códigos OTP não são armazenados em seu sistema ou banco de dados"
+      }
+    },
+    "apiIntegration": {
+      "title": "Integração com Apenas 2 Endpoints de API",
+      "description": "Não são necessárias integrações complexas. Comece a usar o serviço OTP com apenas dois endpoints.",
+      "endpoint1": {
+        "title": "Enviar OTP",
+        "description": "Gere e envie código OTP com uma única chamada de API"
+      },
+      "endpoint2": {
+        "title": "Verificar OTP",
+        "description": "Verifique o código inserido pelo usuário e obtenha o resultado"
+      }
+    },
+    "benefits": {
+      "title": "Benefícios",
+      "items": [
+        "Você não precisa desenvolver sua própria infraestrutura OTP",
+        "Você não armazena códigos OTP em seu próprio banco de dados",
+        "Controles de segurança, tempo limite e nova tentativa são tratados automaticamente",
+        "Você não depende de um único provedor SMS",
+        "Alta taxa de entrega e experiência OTP ininterrupta"
+      ]
+    },
+    "useCases": {
+      "title": "Casos de Uso",
+      "items": [
+        "Verificação de login do usuário",
+        "Verificação de cadastro",
+        "Redefinição de senha",
+        "Verificação de transação",
+        "Verificações de acesso administrativo e crítico"
+      ]
+    },
+    "packageInfo": {
+      "label": "Informações do Pacote",
+      "description": "Esta funcionalidade está disponível para usuários do pacote Pro sem custo adicional."
+    },
+    "highlight": "Não desenvolva sua infraestrutura OTP, desenvolva seu negócio. Deixe a SymphonyRoute gerenciar OTP."
+  },
   "howItWorks": {
     "title": "Como Funciona",
     "description": "Comece em três passos simples. Nenhuma configuração complexa necessária.",

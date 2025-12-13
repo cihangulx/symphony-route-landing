@@ -33,6 +33,71 @@
       "description": "Tüm büyük diller için SDK'larla temiz, RESTful API. Dakikalar içinde başlayın."
     }
   },
+  "otpService": {
+    "badge": "Yeni Özellik",
+    "title": "Yönetilen OTP Servisi (OTP-as-a-Service)",
+    "description": "SymphonyRoute, SMS yönlendirme altyapısının üzerine tamamen yönetilen bir OTP servisi sunar. Bu özellik sayesinde OTP üretimi, saklanması ve doğrulanması gibi karmaşık süreçlerle uğraşmanız gerekmez.",
+    "howItWorks": {
+      "title": "Nasıl Çalışır?",
+      "step1": {
+        "title": "OTP Üretimi",
+        "description": "OTP kodları SymphonyRoute tarafından güvenli şekilde üretilir"
+      },
+      "step2": {
+        "title": "SMS Gönderimi",
+        "description": "OTP mesajları, sizin tanımladığınız SMS sağlayıcıları üzerinden gönderilir"
+      },
+      "step3": {
+        "title": "Otomatik Failover",
+        "description": "Gönderim sırasında otomatik failover ve routing uygulanır"
+      },
+      "step4": {
+        "title": "Doğrulama",
+        "description": "OTP doğrulama işlemi SymphonyRoute tarafından yapılır"
+      },
+      "step5": {
+        "title": "Güvenli Saklama",
+        "description": "OTP kodları sizin sisteminizde veya veritabanınızda saklanmaz"
+      }
+    },
+    "apiIntegration": {
+      "title": "Sadece 2 API Endpoint ile Entegrasyon",
+      "description": "Karmaşık entegrasyonlara gerek yok. Sadece iki endpoint ile OTP servisini kullanmaya başlayın.",
+      "endpoint1": {
+        "title": "OTP Gönder",
+        "description": "Tek bir API çağrısı ile OTP kodunu oluştur ve gönder"
+      },
+      "endpoint2": {
+        "title": "OTP Doğrula",
+        "description": "Kullanıcının girdiği kodu doğrula ve sonucu al"
+      }
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Kendi OTP altyapınızı geliştirmenize gerek yok",
+        "OTP kodlarını kendi veritabanınızda tutmazsınız",
+        "Güvenlik, süre aşımı ve tekrar deneme kontrolleri otomatik yapılır",
+        "Tek bir SMS sağlayıcısına bağımlı kalmazsınız",
+        "Yüksek teslim oranı ve kesintisiz OTP deneyimi"
+      ]
+    },
+    "useCases": {
+      "title": "Kullanım Alanları",
+      "items": [
+        "Kullanıcı giriş doğrulama",
+        "Kayıt (signup) doğrulama",
+        "Şifre sıfırlama",
+        "İşlem onayları (transaction verification)",
+        "Admin ve kritik erişim doğrulamaları"
+      ]
+    },
+    "packageInfo": {
+      "label": "Paket Bilgisi",
+      "description": "Bu özellik Pro paket kullanıcılarına ek ücret olmadan sunulmaktadır."
+    },
+    "highlight": "OTP altyapınızı değil, işinizi geliştirin. OTP'yi SymphonyRoute yönetsin."
+  },
   "howItWorks": {
     "title": "Nasıl Çalışır",
     "description": "Üç basit adımda başlayın. Karmaşık kurulum gerekmez.",
