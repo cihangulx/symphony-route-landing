@@ -8,18 +8,31 @@ export default function GoogleAnalytics() {
   const { preferences } = useCookie()
   const pathname = usePathname()
 
+  // Update consent when preferences change
   useEffect(() => {
-    // Only load Google Analytics if user has consented to analytics cookies
-    if (preferences.analyticsCookies && typeof window !== "undefined") {
+    if (typeof window !== "undefined" && window.gtag) {
+      const consentState = preferences.analyticsCookies ? "granted" : "denied"
+      
+      window.gtag("consent", "update", {
+        analytics_storage: consentState,
+        ad_storage: consentState,
+        ad_user_data: consentState,
+        ad_personalization: consentState,
+      })
+    }
+  }, [preferences.analyticsCookies])
+
+  // Load Google Analytics script and initialize
+  useEffect(() => {
+    if (typeof window !== "undefined") {
       const gaId = process.env.NEXT_PUBLIC_GA_ID
 
       if (gaId) {
-        // Initialize dataLayer if not exists
+        // Ensure dataLayer and gtag exist (should already exist from layout)
         if (!window.dataLayer) {
           window.dataLayer = []
         }
 
-        // Initialize gtag function if not exists
         if (!window.gtag) {
           window.gtag = function gtag(...args: any[]) {
             window.dataLayer.push(args)
@@ -40,22 +53,29 @@ export default function GoogleAnalytics() {
           script2.setAttribute("data-ga-init", "true")
           script2.innerHTML = `
             gtag('js', new Date());
-            gtag('config', '${gaId}');
+            gtag('config', '${gaId}', {
+              send_page_view: false
+            });
           `
           document.head.appendChild(script2)
         }
 
-        // Track initial page view
-        if (window.gtag) {
-          window.gtag("config", gaId, {
-            page_path: pathname,
-          })
+        // Track initial page view only if consent is granted
+        if (preferences.analyticsCookies && window.gtag) {
+          // Small delay to ensure GA script is loaded
+          setTimeout(() => {
+            if (window.gtag) {
+              window.gtag("config", gaId, {
+                page_path: pathname,
+              })
+            }
+          }, 100)
         }
       }
     }
-  }, [preferences.analyticsCookies])
+  }, [preferences.analyticsCookies, pathname])
 
-  // Track page views on route changes
+  // Track page views on route changes (only if consent granted)
   useEffect(() => {
     if (preferences.analyticsCookies && typeof window !== "undefined") {
       const gaId = process.env.NEXT_PUBLIC_GA_ID

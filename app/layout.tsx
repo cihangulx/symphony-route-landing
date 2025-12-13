@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Geist_Mono } from "next/font/google"
+import Script from "next/script"
 import { LanguageProvider } from "@/contexts/language-context"
 import { CookieProvider } from "@/contexts/cookie-context"
 import CookieConsent from "@/components/cookie-consent"
@@ -128,9 +129,36 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID
+
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
+        {/* Initialize dataLayer and consent mode before page load */}
+        {gaId && (
+          <Script
+            id="gtm-init-consent"
+            strategy="beforeInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                
+                // Set default consent state (granted by default)
+                gtag('consent', 'default', {
+                  'ad_storage': 'granted',
+                  'ad_user_data': 'granted',
+                  'ad_personalization': 'granted',
+                  'analytics_storage': 'granted',
+                  'wait_for_update': 500
+                });
+                
+                // Send consent initialization event
+                dataLayer.push({'event': 'gtm.init_consent'});
+              `,
+            }}
+          />
+        )}
         <LanguageProvider>
           <CookieProvider>
             {children}

@@ -39,10 +39,6 @@ export default function OTPServiceSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0C58FE]/10 border border-[#0C58FE]/20 mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#0C58FE] animate-pulse" />
-            <span className="text-sm font-medium text-[#020726]">{t.otpService.badge}</span>
-          </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#020726] tracking-tight mb-4">
             {t.otpService.title}
           </h2>

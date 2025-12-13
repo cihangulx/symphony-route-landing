@@ -148,7 +148,8 @@
         "Öncelikli yönlendirme + yedekleme",
         "Gelişmiş analitik",
         "Öncelikli destek",
-        "Özel yönlendirme kuralları"
+        "Özel yönlendirme kuralları",
+        "Yönetilen OTP Servisi"
       ],
       "cta": "Ücretsiz Deneme Başlat"
     },
@@ -163,7 +164,8 @@
         "SLA garantisi",
         "Gelişmiş trafik dağıtımı",
         "7/24 telefon desteği",
-        "Özel entegrasyonlar"
+        "Özel entegrasyonlar",
+        "Yönetilen OTP Servisi"
       ],
       "cta": "Satış Ekibiyle İletişime Geç"
     }
