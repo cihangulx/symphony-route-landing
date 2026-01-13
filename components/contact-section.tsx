@@ -18,11 +18,13 @@ export default function ContactSection() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(null)
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     setSubmitStatus(null)
+    setErrorMessage(null)
 
     try {
       const response = await fetch("/api/contact", {
@@ -37,9 +39,21 @@ export default function ContactSection() {
         setSubmitStatus("success")
         setFormData({ name: "", email: "", subject: "", message: "" })
       } else {
+        // Response'tan hata mesajını al
+        try {
+          const errorData = await response.json()
+          const message = errorData.error || errorData.message || t.contact.errorMessage
+          setErrorMessage(message)
+        } catch (parseError) {
+          // JSON parse edilemezse generic mesaj kullan
+          setErrorMessage(t.contact.errorMessage)
+        }
         setSubmitStatus("error")
       }
     } catch (error) {
+      // Network hatası veya diğer hatalar
+      console.error("Contact form submission error:", error)
+      setErrorMessage(t.contact.errorMessage)
       setSubmitStatus("error")
     } finally {
       setIsSubmitting(false)
@@ -156,7 +170,7 @@ export default function ContactSection() {
 
             {submitStatus === "error" && (
               <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-                {t.contact.errorMessage}
+                {errorMessage || t.contact.errorMessage}
               </div>
             )}
 

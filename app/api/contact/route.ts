@@ -28,6 +28,12 @@ function getClientIP(request: NextRequest): string {
   return request.ip || 'unknown'
 }
 
+// Email format validasyonu
+function isValidEmail(email: string): boolean {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return emailRegex.test(email)
+}
+
 export async function POST(request: NextRequest) {
   try {
     // Request body'yi parse et
@@ -42,9 +48,36 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Email format validasyonu
+    if (!isValidEmail(email)) {
+      return NextResponse.json(
+        { error: 'Invalid email format' },
+        { status: 400 }
+      )
+    }
+
+    // Trim ve temizleme
+    const trimmedName = name.trim()
+    const trimmedEmail = email.trim().toLowerCase()
+    const trimmedSubject = subject.trim()
+    const trimmedMessage = message.trim()
+
+    // Boş string kontrolü (sadece whitespace)
+    if (!trimmedName || !trimmedEmail || !trimmedSubject || !trimmedMessage) {
+      return NextResponse.json(
+        { error: 'All fields are required' },
+        { status: 400 }
+      )
+    }
+
     // IP adresini al
     const clientIP = getClientIP(request)
     const userAgent = request.headers.get('user-agent') || undefined
+
+    // API Gateway URL kontrolü (development için log)
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`[Contact API] Sending request to: ${API_GATEWAY_URL}/api/contact`)
+    }
 
     // API Gateway'e istek gönder
     const response = await fetch(`${API_GATEWAY_URL}/api/contact`, {
@@ -55,20 +88,37 @@ export async function POST(request: NextRequest) {
         'User-Agent': userAgent || '',
       },
       body: JSON.stringify({
-        name,
-        email,
-        subject,
-        message,
+        name: trimmedName,
+        email: trimmedEmail,
+        subject: trimmedSubject,
+        message: trimmedMessage,
         ipAddress: clientIP,
         userAgent,
       }),
     })
 
-    const data = await response.json()
+    // Response parsing - sadece ok response'larda parse et
+    let data
+    try {
+      const contentType = response.headers.get('content-type')
+      if (contentType && contentType.includes('application/json')) {
+        data = await response.json()
+      } else {
+        // JSON değilse text olarak oku
+        const text = await response.text()
+        data = text ? { message: text } : {}
+      }
+    } catch (parseError) {
+      console.error('Error parsing response:', parseError)
+      // Parse hatası durumunda boş data ile devam et
+      data = {}
+    }
 
     if (!response.ok) {
+      const errorMessage = data?.message || data?.error || `Server error: ${response.status}`
+      console.error(`[Contact API] Error from API Gateway: ${errorMessage}`)
       return NextResponse.json(
-        { error: data.message || data.error || 'An error occurred' },
+        { error: errorMessage },
         { status: response.status }
       )
     }
@@ -82,6 +132,15 @@ export async function POST(request: NextRequest) {
     )
   } catch (error) {
     console.error('Contact form error:', error)
+    
+    // Daha spesifik hata mesajları
+    if (error instanceof TypeError && error.message.includes('fetch')) {
+      return NextResponse.json(
+        { error: 'Unable to connect to the server. Please try again later.' },
+        { status: 503 }
+      )
+    }
+
     return NextResponse.json(
       { error: 'An error occurred while processing your request' },
       { status: 500 }
