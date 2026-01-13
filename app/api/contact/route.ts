@@ -74,13 +74,24 @@ export async function POST(request: NextRequest) {
     const clientIP = getClientIP(request)
     const userAgent = request.headers.get('user-agent') || undefined
 
-    // API Gateway URL kontrolü (development için log)
-    if (process.env.NODE_ENV === 'development') {
-      console.log(`[Contact API] Sending request to: ${API_GATEWAY_URL}/api/contact`)
+    // API Gateway URL kontrolü ve log
+    const gatewayUrl = `${API_GATEWAY_URL}/api/contact`
+    console.log(`[Contact API] Sending request to: ${gatewayUrl}`, {
+      environment: process.env.NODE_ENV,
+      hasApiGatewayUrl: !!process.env.API_GATEWAY_URL,
+    })
+
+    // API Gateway URL kontrolü
+    if (!process.env.API_GATEWAY_URL) {
+      console.error('[Contact API] ERROR: API_GATEWAY_URL environment variable is not set!')
+      return NextResponse.json(
+        { error: 'Server configuration error. Please contact support.' },
+        { status: 500 }
+      )
     }
 
     // API Gateway'e istek gönder
-    const response = await fetch(`${API_GATEWAY_URL}/api/contact`, {
+    const response = await fetch(gatewayUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -131,10 +142,19 @@ export async function POST(request: NextRequest) {
       { status: 200 }
     )
   } catch (error) {
-    console.error('Contact form error:', error)
+    console.error('[Contact API] Contact form error:', {
+      error: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      apiGatewayUrl: API_GATEWAY_URL,
+      hasApiGatewayUrl: !!process.env.API_GATEWAY_URL,
+    })
     
     // Daha spesifik hata mesajları
     if (error instanceof TypeError && error.message.includes('fetch')) {
+      console.error('[Contact API] Fetch error - API Gateway connection failed', {
+        url: `${API_GATEWAY_URL}/api/contact`,
+        error: error.message,
+      })
       return NextResponse.json(
         { error: 'Unable to connect to the server. Please try again later.' },
         { status: 503 }

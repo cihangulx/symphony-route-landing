@@ -19,7 +19,10 @@ NEXT_PUBLIC_SITE_URL=https://symphonyroute.com
 NEXT_PUBLIC_DASHBOARD_URL=https://dashboard.symphonyroute.com
 NEXT_PUBLIC_DASHBOARD_DOMAIN=dashboard.symphonyroute.com
 NEXT_PUBLIC_GA_ID=G-DLBH0YJ0MW
+API_GATEWAY_URL=https://api.symphonyroute.com
 ```
+
+**ÖNEMLİ**: `API_GATEWAY_URL` değişkeni contact form API route'u için gereklidir. Bu değişken olmadan contact form çalışmaz!
 
 ### Preview/Development Environment Variables (Opsiyonel)
 
