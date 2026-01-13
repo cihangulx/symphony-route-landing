@@ -75,10 +75,13 @@ export async function POST(request: NextRequest) {
     const userAgent = request.headers.get('user-agent') || undefined
 
     // API Gateway URL kontrolü ve log
-    const gatewayUrl = `${API_GATEWAY_URL}/api/contact`
+    // Trailing slash'i temizle ve doğru URL oluştur
+    const baseUrl = API_GATEWAY_URL.replace(/\/$/, '') // Trailing slash'i kaldır
+    const gatewayUrl = `${baseUrl}/api/contact`
     console.log(`[Contact API] Sending request to: ${gatewayUrl}`, {
       environment: process.env.NODE_ENV,
       hasApiGatewayUrl: !!process.env.API_GATEWAY_URL,
+      originalUrl: API_GATEWAY_URL,
     })
 
     // API Gateway URL kontrolü
